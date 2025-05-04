@@ -2,8 +2,6 @@ Cardmarket web scrapping to export inventory.
 
 ## .env file
 
-First, run the development server:
-
 ```bash
 CARDMARKET_EMAIL=username
 CARDMARKET_PASSWORD=password
