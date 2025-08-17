@@ -1,22 +1,24 @@
 {
-  "name": "test",
+  "name": "cardmarket-inventory-exporter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Export your Cardmarket Pokemon inventory to CSV",
+  "main": "src/index.ts",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9",
-    "playwright": "^1.52.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  },
+  "keywords": ["cardmarket", "pokemon", "inventory", "scraper", "csv"],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "nodemon": "^3.0.1",
+    "@types/node": "^20.8.0"
   }
 }

@@ -1,2 +1,12 @@
-.env
-node_modules
+# Node.js
+node_modules/
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env # You are not catching me lacking 👀
+*.csv
+.DS_Store
