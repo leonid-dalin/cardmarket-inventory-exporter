@@ -8,14 +8,14 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc"
   },
-  "keywords": ["cardmarket", "pokemon", "inventory", "scraper", "csv"],
-  "author": "Your Name",
-  "license": "MIT",
+  "keywords": ["cardmarket", "pokemon", "pokemon tcg", "inventory", "scraper", "csv"],
+  "author": "Leonid Dalin",
+  "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
-    "playwright": "^1.40.0",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
+    "playwright": "^1.40.0",
     "typescript": "^5.2.2",
     "ts-node": "^10.9.1",
     "nodemon": "^3.0.1",

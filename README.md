@@ -110,20 +110,25 @@ cardmarket-inventory-exporter/
 │   ├── index.ts          # Main scraping logic
 │   └── utils/
 │       └── languages.ts   # Language code mappings
+├── node_modules/         # Installed dependencies (auto-generated)
 ├── .env                 # Your credentials (gitignored)
+├── .gitattributes       # Git attributes configuration
 ├── .gitignore           # Excludes sensitive files
+├── nodemon.json         # Nodemon configuration
+├── package-lock.json    # Locked dependency versions
 ├── package.json         # Dependencies and scripts
-└── README.md           # This file
+├── tsconfig.json        # TypeScript configuration
+├── LICENSE              # CC BY-NC-SA 4.0 License file
+└── README.md           # (hey this is me! 👋)
 ```
 
 ### Dependencies
 
 See `package.json` for the complete list of dependencies.
 
-## Security
+## Security & Privacy
 
 - 🔒 Credentials are stored locally in `.env` file
-- 🛡️ Never commit your `.env` file to version control
 - 👁️ Browser mode allows you to monitor the scraping process
 - 🚫 No data is sent to external servers
 
@@ -137,7 +142,7 @@ See `package.json` for the complete list of dependencies.
 
 ## Disclaimer
 
-This tool is for personal use only. Please ensure you comply with Cardmarket's Terms of Service when using this scraper. The developers are not responsible for any account restrictions that may result from using this tool.
+This tool is for personal use only. Please ensure you comply with Cardmarket's Terms of Service when using this scraper. The developers are not responsible for any account restrictions that may result from using this tool. Use it at your own risk.
 
 ## License
 
