@@ -7,6 +7,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.env # You are not catching me lacking 👀
+# You are not catching me lacking this time
+.env 
 *.csv
 .DS_Store
